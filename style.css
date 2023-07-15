@@ -15,6 +15,10 @@ main{
    margin-right: 3vw;
 }
 
+footer{
+   margin: 100px 15vw 50px 15vw;
+}
+
 a.btn.dropdown-toggle:hover{
    background-color: black;
 }
@@ -40,4 +44,40 @@ a.btn.dropdown-toggle:hover{
 
 .cardBox img{
    width: 100%;
+}
+
+.iconSocial i.bi{
+   padding-right: 1.5rem;
+   font-size: 1.5em;
+   color: rgb(159 159 159);
+}
+
+.footerInfo p{
+   color: rgb(159 159 159);
+   font-size: 13px;
+}
+
+.footerButton button{
+   background-color: transparent;
+   border: 1px solid rgb(159 159 159);
+   font-size: 13px;
+   color: rgb(159 159 159);
+   padding: 6px 6px;
+}
+
+.footerButton button:hover{
+   background-color: transparent;
+   border: 1px solid white;
+   font-size: 13px;
+   color: white;
+   padding: 6px 6px;
+}
+
+.copyright *{ 
+   color: rgb(159 159 159);
+   font-size: 12px;
+}
+
+.copyright p{
+   display: inline;
 }
