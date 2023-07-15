@@ -1,0 +1,43 @@
+body{
+   background-color: rgb(20, 20, 20);
+}
+
+nav.navbar-custom{
+   background-color: rgb(20, 20, 20);
+}
+
+*{
+   color: rgb(240, 255, 240);
+}
+
+main{
+   margin-left: 3vw;
+   margin-right: 3vw;
+}
+
+a.btn.dropdown-toggle:hover{
+   background-color: black;
+}
+
+#layout{
+   list-style-type: none;
+}
+
+#layout li{
+   border: 1px solid rgb(52, 52, 52);
+   padding: 3px 15px;
+}
+
+.cardBox{
+   padding: 0;
+   margin: 0 3px;
+   transition: all .3s ease-in-out;
+}
+
+.cardBox:hover{
+   transform: scale(1.2);
+}
+
+.cardBox img{
+   width: 100%;
+}
